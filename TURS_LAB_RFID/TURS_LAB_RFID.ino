@@ -55,10 +55,10 @@ void setup(){
 void loop(){
     door=digitalRead(DOOR);
     handle=digitalRead(BUTTON);
-    lcd.setCursor(0,0);
+    /*lcd.setCursor(0,0);
     lcd.scrollDisplayLeft();
     delay(300);
-    lcd.print("TEZPUR UNIVERSITY ROBOTICS SOCIETY LAB");
+    lcd.print("TEZPUR UNIVERSITY ROBOTICS SOCIETY LAB");*/
 
     if(rfid.isCard())
     {
